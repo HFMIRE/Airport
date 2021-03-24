@@ -2,14 +2,14 @@
 const {Person, Passenger, Crew} = require('./Passenger'); 
 
 
-// describe('Passenger test', () => {
-//     test ('checking if the passenger classes work', () => {
-//       let dora = new Passenger('Dora the Explorer', 43); 
-//       expect(dora.name).toEqual('Dora the Explorer'); 
-//       expect(dora.luggage).toEqual(43); 
+describe('Passenger test', () => {
+    test ('checking if the passenger classes work', () => {
+      let dora = new Passenger('Dora the Explorer', 43); 
+      expect(dora.name).toEqual('Dora the Explorer'); 
+      expect(dora.luggage).toEqual(43); 
   
-//     })
-//   })
+    })
+  })
 
 describe('extending the Paassenger', () => {
   test('is an instance of a Passenger', () => {
