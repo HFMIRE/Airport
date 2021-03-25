@@ -4,8 +4,8 @@
   "description": "",
   "main": "Airport.js",
   "scripts": {
-    "test": "jest--watchAll",
-    "test:report": "jest --coverage=true"
+    "test": "jest"
+   
   },
   "author": "",
   "license": "ISC",

@@ -3,7 +3,7 @@ const {Person, Passenger, Crew} = require('./Passenger');
 
 
 describe('Passenger test', () => {
-    test ('checking if the passenger classes work', () => {
+    test.skip ('checking if the passenger classes work', () => {
       let dora = new Passenger('Dora the Explorer', 43); 
       expect(dora.name).toEqual('Dora the Explorer'); 
       expect(dora.luggage).toEqual(43); 
@@ -12,7 +12,7 @@ describe('Passenger test', () => {
   })
 
 describe('extending the Paassenger', () => {
-  test('is an instance of a Passenger', () => {
+  test.skip('is an instance of a Passenger', () => {
     const betty = new Passenger('Betty', 54)
     
     console.log(betty);
@@ -22,7 +22,7 @@ describe('extending the Paassenger', () => {
 } )
 
 describe('extending the crew', () => {
-  test('is an istance of a Crew', () => {
+  test.skip('is an istance of a Crew', () => {
     const bob = new Crew ('Bob the Builder', 62 )
   
     console.log(bob);

@@ -4,7 +4,7 @@ const Plane = require('./plane');
 
 
 describe('Planes test', () => {
-    test('checking if planes classes work', () => {
+    test.skip('checking if planes classes work', () => {
       // arrange
       let ba = new Plane('British Airways'); 
       let dora = new Passenger('Dora the Explorer', 43); 

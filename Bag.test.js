@@ -4,7 +4,7 @@ const Bag = require('./Bag');
 
 
 describe('bag test', () => {
-    test('checking if bag test', () => {
+    test.skip('checking if bag test', () => {
   
       // Test
      let dora = new Passenger('Dora the Explorer', 43);
