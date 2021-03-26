@@ -1,11 +1,9 @@
-const Passenger = require('./Passenger'); 
+const Passenger = require("./Passenger");
 
 class Bag {
-    constructor(weight ) {
-      this.weight = weight
-    }
+  constructor(weight) {
+    this.weight = weight;
   }
+}
 
-
-
-  module.exports = Bag 
+module.exports = Bag;
